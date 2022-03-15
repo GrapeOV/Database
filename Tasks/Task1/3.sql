@@ -1,5 +1,5 @@
---3.	Показать поля ProductID, BusinessEntityID, AverageLeadTime, StandardPrice из таблицы
---Purchasing.ProductVendor, для товаров, имеющих цену продажи (поле не пустое) при 
---последней покупке (LastReceiptCost).
+--3. РџРѕРєР°Р·Р°С‚СЊ РїРѕР»СЏ ProductID, BusinessEntityID, AverageLeadTime, StandardPrice РёР· С‚Р°Р±Р»РёС†С‹ 
+--Purchasing.ProductVendor, РґР»СЏ С‚РѕРІР°СЂРѕРІ, РёРјРµСЋС‰РёС… С†РµРЅСѓ РїСЂРѕРґР°Р¶Рё (РїРѕР»Рµ РЅРµ РїСѓСЃС‚РѕРµ) 
+--РїСЂРё РїРѕСЃР»РµРґРЅРµР№ РїРѕРєСѓРїРєРµ (LastReceiptCost).
 SELECT ProductID, BusinessEntityID, AverageLeadTime, StandardPrice FROM Purchasing.ProductVendor
 WHERE LastReceiptCost IS NOT NULL
