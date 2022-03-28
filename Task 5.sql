@@ -2,11 +2,11 @@
 --(Таблица Production.Product). Показать поля [Name], ListPrice и ProductModelID
 	use AdventureWorks2019
 
-select  a.Name, a.ListPrice, a.ProductModelID
-from Production.Product a
-LEFT JOIN (
-	select ProductModelID, avg(ListPrice) as AP from Production.Product
-	where not ProductModelID is null
-	group by ProductModelID) b
-on a.ProductModelID = b.ProductModelID
-where a.ListPrice > b.AP
+SELECT [Name], ListPrice, ProductModelID 
+FROM Production.Product
+WHERE ListPrice > ALL(
+  SELECT AVG(ListPrice) AS AVGLISTPRICE 
+  FROM Production.Product
+  WHERE ProductModelID IS NOT NULL 
+  GROUP BY ProductModelID
+)
