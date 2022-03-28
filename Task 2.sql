@@ -3,3 +3,4 @@ USE AdventureWorks2019
 
 SELECT AVG(Weight) as AvgWeight 
 FROM Production.Product 
+WHERE Weight>0
