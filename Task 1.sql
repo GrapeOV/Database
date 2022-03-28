@@ -3,4 +3,4 @@ USE AdventureWorks2019
 
 SELECT MIN(ListPrice) as min 
 FROM Production.Product
---WHERE ListPrice>0
+WHERE ListPrice>0
