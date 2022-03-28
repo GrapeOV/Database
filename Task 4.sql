@@ -2,9 +2,13 @@
 --(Таблица Production.Product). Показать поля [Name],ListPrice и ProductSubcategoryID
 	use AdventureWorks2019
 
-	select a.Name, a.ProductSubcategoryID, b.MP
-	from Production.Product a, 
-	(select ProductSubcategoryID, max(ListPrice) as MP from Production.Product
-	where not ProductSubcategoryID is null
-	group by ProductSubcategoryID) b
-	where a.ProductSubcategoryID = b.ProductSubcategoryID
+	SELECT [Name], ListPrice, a.ProductSubcategoryID
+	FROM Production.Product as a
+	join 
+	(
+	   SELECT ProductSubcategoryID, MAX(ListPrice) as MAXLISTpr
+	   FROM Production.Product
+	   WHERE ProductSubcategoryID IS NOT NULL
+	   GROUP BY ProductSubcategoryID
+	)
+	as b ON a.ProductSubcategoryID = b.ProductSubcategoryID and a.ListPrice = b.MAXLISTpr
