@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Task5">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="WIN-0L58VJJH0V3:WIN-0L58VJJH0V3\user">
+          <Created>2022-05-09T20:12:31.6432784+03:00</Created>
+          <Type>SQL</Type>
+          <Server>WIN-0L58VJJH0V3</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CREATE_TABLE_Author.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Author.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Collection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Collection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Composition.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Composition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Country.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Country.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Genre.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Genre.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Stock.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Stock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_StorageMedium.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_StorageMedium.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE_TABLE_Warehouse.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE_TABLE_Warehouse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="fYoungestComposer.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>fYoungestComposer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InitDB.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-0L58VJJH0V3:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-0L58VJJH0V3</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>InitDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertValues.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>InsertValues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pAlbum.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pAlbum.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pComposer.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pComposer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pComposition.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pComposition.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pCountry.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pCountry.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pGenre.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pGenre.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pStock.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pStock.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pStorageMedium.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pStorageMedium.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pWarehouse.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pWarehouse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="trigger.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>trigger.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TriggerTest.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TriggerTest.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vAlbum.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>vAlbum.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
