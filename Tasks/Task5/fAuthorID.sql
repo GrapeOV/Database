@@ -1,0 +1,13 @@
+CREATE FUNCTION dbo.fAuthorID
+(
+	@AuthorName NVARCHAR(50)
+)
+RETURNS UNIQUEIDENTIFIER
+AS
+BEGIN
+	DECLARE @ID_Author UNIQUEIDENTIFIER = 
+			(SELECT TOP 1 ID
+			FROM Author 
+			WHERE [Name] = @AuthorName);
+	RETURN @ID_Author;
+END;
